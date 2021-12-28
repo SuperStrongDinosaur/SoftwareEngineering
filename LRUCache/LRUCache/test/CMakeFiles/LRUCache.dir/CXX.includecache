@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/SuperStrongDinosaur/Programing/SoftwareEngineering/LRUCache/LRUCache/LRUCache.cpp
+LRUCache.h
+/Users/SuperStrongDinosaur/Programing/SoftwareEngineering/LRUCache/LRUCache/LRUCache.h
+cassert
+-
+
+/Users/SuperStrongDinosaur/Programing/SoftwareEngineering/LRUCache/LRUCache/LRUCache.h
+map
+-
+string
+-
+

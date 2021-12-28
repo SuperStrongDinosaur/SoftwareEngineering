@@ -1,0 +1,9 @@
+add_library(LRUCache "../LRUCache.cpp")
+
+set(CMAKE_CXX_STANDARD 14)
+add_subdirectory(gtestLib)
+include_directories(gtestLib/include/)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+add_executable(LRUCacheTesting "LRUCacheTesting.cpp")
+target_link_libraries(LRUCacheTesting LRUCache gtest_main)
+add_test(testing LRUCacheTesting)
